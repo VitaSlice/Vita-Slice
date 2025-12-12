@@ -34,7 +34,7 @@ function Hero() {
                   className="relative w-80 h-80 object-cover rounded-full border-4 border-white shadow-2xl"
                   onError={(e) => {
                     e.target.onerror = null; 
-                    e.target.src = "banner.jpg.png"; // Gambar cadangan jika file Anda tidak ketemu
+                    e.target.src = "https://github.com/VitaSlice/Vita-Slice/blob/main/banner.jpg.png?raw=true"; // Gambar cadangan jika file Anda tidak ketemu
                   }}
                 />
 
