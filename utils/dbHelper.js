@@ -12,11 +12,39 @@ const INGREDIENT_DATA = [
 
 // --- DATA PRODUK SIGNATURE (SIGNATURE_PRODUCT) ---
 const SIGNATURE_PRODUCT_DATA = [
-    // BLENDED SIGNATURE PRODUCTS (Original)
+    // BLENDED SIGNATURE PRODUCTS (Original - Kosongkan jika belum ada)
     
     // SLICED SIGNATURE PRODUCTS (New)
-    { objectId: 'sig-4', objectData: { name: 'Vita-Jasmine Series (Potongan)', description: 'Semangka, Lemon, Apel, melon, dengan kuah Teh Jasmine.', price: 20000, type: 'sliced', nutrients: JSON.stringify({ calories: 110, sugar: 18, vitaminC: 75, vitaminA: 80 }) } },
-    { objectId: 'sig-5', objectData: { name: 'Vita-Coco Series (Potongan)', description: 'Semangka, Lemon, Apel, melon, dengan sedikit Air Kelapa segar sebagai kuah.', price: 20000, type: 'sliced', nutrients: JSON.stringify({ calories: 250, sugar: 25, vitaminC: 15, vitaminA: 10 }) } },
+    { 
+      objectId: 'sig-4', 
+      objectData: { 
+        name: 'Vita-Jasmine Series (Potongan)', 
+        description: 'Semangka, Lemon, Apel, melon, dengan kuah Teh Jasmine.', 
+        price: 20000, 
+        type: 'sliced',
+        
+        // --- BAGIAN PENTING: GANTI LINK DI BAWAH INI ---
+        // Masukkan Link GitHub RAW Anda di sini. 
+        // Contoh: "https://raw.githubusercontent.com/VitaSlice/Vita-Slice/main/jasmine.jpg"
+        image: "https://images.unsplash.com/photo-1565809655810-ac998656602e?w=500&q=80", 
+        
+        nutrients: JSON.stringify({ calories: 110, sugar: 18, vitaminC: 75, vitaminA: 80 }) 
+      } 
+    },
+    { 
+      objectId: 'sig-5', 
+      objectData: { 
+        name: 'Vita-Coco Series (Potongan)', 
+        description: 'Semangka, Lemon, Apel, melon, dengan sedikit Air Kelapa segar sebagai kuah.', 
+        price: 20000, 
+        type: 'sliced', 
+        
+        // --- BAGIAN PENTING: GANTI LINK DI BAWAH INI ---
+        image: "https://images.unsplash.com/photo-1546833999-b9f581602932?w=500&q=80", 
+        
+        nutrients: JSON.stringify({ calories: 250, sugar: 25, vitaminC: 15, vitaminA: 10 }) 
+      } 
+    },
 ];
 
 // --- SIMULASI PEMBANTU DATABASE (Non-Persistent) ---
