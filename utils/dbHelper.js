@@ -26,7 +26,7 @@ const SIGNATURE_PRODUCT_DATA = [
         // --- BAGIAN PENTING: GANTI LINK DI BAWAH INI ---
         // Masukkan Link GitHub RAW Anda di sini. 
         // Contoh: "https://raw.githubusercontent.com/VitaSlice/Vita-Slice/main/jasmine.jpg"
-        image: "https://images.unsplash.com/photo-1565809655810-ac998656602e?w=500&q=80", 
+        image: "https://github.com/VitaSlice/Vita-Slice/blob/main/jasmin.png?raw=true", 
         
         nutrients: JSON.stringify({ calories: 110, sugar: 18, vitaminC: 75, vitaminA: 80 }) 
       } 
