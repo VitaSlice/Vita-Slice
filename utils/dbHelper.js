@@ -27,12 +27,12 @@ const INGREDIENT_DATA = [
 // --- DATA PRODUK SIGNATURE (SIGNATURE_PRODUCT) ---
 const SIGNATURE_PRODUCT_DATA = [
     // BLENDED SIGNATURE PRODUCTS (Original)
-    { objectId: 'sig-1', objectData: { name: 'Berry Blast12 (Jus)', description: 'Kombinasi stroberi, bluberi, dan teh hijau. Kaya antioksidan!', price: 35000, type: 'blended', nutrients: JSON.stringify({ calories: 180, sugar: 22, vitaminC: 60, vitaminA: 5 }) } },
+    { objectId: 'sig-1', objectData: { name: 'Berry Blast (Jus)', description: 'Kombinasi stroberi, bluberi, dan teh hijau. Kaya antioksidan!', price: 35000, type: 'blended', nutrients: JSON.stringify({ calories: 180, sugar: 22, vitaminC: 60, vitaminA: 5 }) } },
     { objectId: 'sig-2', objectData: { name: 'Green Detox (Jus)', description: 'Bayam, apel, kiwi, dan air mineral. Pilihan terbaik untuk detoks.', price: 40000, type: 'blended', nutrients: JSON.stringify({ calories: 140, sugar: 18, vitaminC: 105, vitaminA: 470 }) } },
     { objectId: 'sig-3', objectData: { name: 'Tropical Sunshine (Jus)', description: 'Mangga, nanas, dan air kelapa. Rasanya seperti liburan tropis!', price: 38000, type: 'blended', nutrients: JSON.stringify({ calories: 220, sugar: 30, vitaminC: 80, vitaminA: 60 }) } },
     
     // SLICED SIGNATURE PRODUCTS (New)
-    { objectId: 'sig-4', objectData: { name: 'Summer Slices (Potongan)', description: 'Semangka, Pepaya, Jeruk, dengan kuah Air Kelapa segar.', price: 30000, type: 'sliced', nutrients: JSON.stringify({ calories: 110, sugar: 18, vitaminC: 75, vitaminA: 80 }) } },
+    { objectId: 'sig-4', objectData: { name: 'Summer Slices12 (Potongan)', description: 'Semangka, Pepaya, Jeruk, dengan kuah Air Kelapa segar.', price: 30000, type: 'sliced', nutrients: JSON.stringify({ calories: 110, sugar: 18, vitaminC: 75, vitaminA: 80 }) } },
     { objectId: 'sig-5', objectData: { name: 'Power Fruit (Potongan)', description: 'Pisang, Alpukat, Apel, dengan sedikit Teh Hijau sebagai kuah.', price: 34000, type: 'sliced', nutrients: JSON.stringify({ calories: 250, sugar: 25, vitaminC: 15, vitaminA: 10 }) } },
     { objectId: 'sig-6', objectData: { name: 'Kiwi Berry (Potongan)', description: 'Kiwi dan Stroberi yang dipotong dadu. Kebutuhan Vitamin C terpenuhi!', price: 36000, type: 'sliced', nutrients: JSON.stringify({ calories: 120, sugar: 15, vitaminC: 150, vitaminA: 1 }) } },
 ];
