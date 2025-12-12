@@ -32,8 +32,8 @@ const SIGNATURE_PRODUCT_DATA = [
     { objectId: 'sig-3', objectData: { name: 'Tropical Sunshine (Jus)', description: 'Mangga, nanas, dan air kelapa. Rasanya seperti liburan tropis!', price: 38000, type: 'blended', nutrients: JSON.stringify({ calories: 220, sugar: 30, vitaminC: 80, vitaminA: 60 }) } },
     
     // SLICED SIGNATURE PRODUCTS (New)
-    { objectId: 'sig-4', objectData: { name: 'Summer Slices12 (Potongan)', description: 'Semangka, Pepaya, Jeruk, dengan kuah Air Kelapa segar.', price: 30000, type: 'sliced', nutrients: JSON.stringify({ calories: 110, sugar: 18, vitaminC: 75, vitaminA: 80 }) } },
-    { objectId: 'sig-5', objectData: { name: 'Power Fruit (Potongan)', description: 'Pisang, Alpukat, Apel, dengan sedikit Teh Hijau sebagai kuah.', price: 34000, type: 'sliced', nutrients: JSON.stringify({ calories: 250, sugar: 25, vitaminC: 15, vitaminA: 10 }) } },
+    { objectId: 'sig-4', objectData: { name: 'SVita-Jasmine Series (Potongan)', description: 'Semangka, Pepaya, Jeruk, dengan kuah Air Kelapa segar.', price: 30000, type: 'sliced', nutrients: JSON.stringify({ calories: 110, sugar: 18, vitaminC: 75, vitaminA: 80 }) } },
+    { objectId: 'sig-5', objectData: { name: 'Vita-Coco Series (Potongan)', description: 'Pisang, Alpukat, Apel, dengan sedikit Teh Hijau sebagai kuah.', price: 34000, type: 'sliced', nutrients: JSON.stringify({ calories: 250, sugar: 25, vitaminC: 15, vitaminA: 10 }) } },
     { objectId: 'sig-6', objectData: { name: 'Kiwi Berry (Potongan)', description: 'Kiwi dan Stroberi yang dipotong dadu. Kebutuhan Vitamin C terpenuhi!', price: 36000, type: 'sliced', nutrients: JSON.stringify({ calories: 120, sugar: 15, vitaminC: 150, vitaminA: 1 }) } },
 ];
 
