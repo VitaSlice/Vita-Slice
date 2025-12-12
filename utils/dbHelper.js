@@ -40,7 +40,7 @@ const SIGNATURE_PRODUCT_DATA = [
         type: 'sliced', 
         
         // --- BAGIAN PENTING: GANTI LINK DI BAWAH INI ---
-        image: "https://images.unsplash.com/photo-1546833999-b9f581602932?w=500&q=80", 
+        image: "https://github.com/VitaSlice/Vita-Slice/blob/main/coco.png?raw=true", 
         
         nutrients: JSON.stringify({ calories: 250, sugar: 25, vitaminC: 15, vitaminA: 10 }) 
       } 
