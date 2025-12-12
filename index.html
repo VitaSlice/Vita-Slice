@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaBlend - Pesan Minuman Sehat Custom</title>
+    <meta name="description" content="VitaBlend - Platform pemesanan minuman sehat dengan kustomisasi nutrisi dan pelacak kalori real-time">
+    <meta name="keywords" content="minuman sehat, jus custom, nutrisi, vitamin, diet">
+    <meta property="og:title" content="VitaBlend - Pesan Minuman Sehat Custom">
+    <meta property="og:description" content="Buat minuman sehat sesuai kebutuhan nutrisi Anda dengan VitaBlend">
+    <meta name="twitter:title" content="VitaBlend - Pesan Minuman Sehat Custom">
+    <meta name="twitter:description" content="Buat minuman sehat sesuai kebutuhan nutrisi Anda dengan VitaBlend">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #10b981;
+            --secondary-color: #f0fdf4;
+            --accent-color: #059669;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            color: var(--text-primary);
+        }
+    }
+
+    @layer components {
+        .btn-primary {
+            @apply px-6 py-3 bg-[var(--primary-color)] text-white rounded-lg font-medium hover:bg-[var(--accent-color)] transition-colors;
+        }
+        
+        .btn-secondary {
+            @apply px-6 py-3 bg-white text-[var(--primary-color)] border-2 border-[var(--primary-color)] rounded-lg font-medium hover:bg-[var(--secondary-color)] transition-colors;
+        }
+        
+        .card {
+            @apply bg-white rounded-xl shadow-md p-6;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/SignatureMenu.js"></script>
+    <script type="text/babel" src="components/CustomizerPreview.js"></script>
+    <script type="text/babel" src="components/NutritionTracker.js"></script>
+    <script type="text/babel" src="components/Cart.js"></script>
+    <script type="text/babel" src="utils/nutritionCalculator.js"></script>
+    <script type="text/babel" src="utils/dbHelper.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>

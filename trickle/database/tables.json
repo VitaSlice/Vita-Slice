@@ -1,0 +1,139 @@
+[
+  {
+    "name": "ingredient",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "description": "Nama bahan",
+        "options": null
+      },
+      {
+        "name": "stock",
+        "type": "number",
+        "description": "Jumlah stok dalam gram",
+        "options": null
+      },
+      {
+        "name": "calories",
+        "type": "number",
+        "description": "Kalori per 100g",
+        "options": null
+      },
+      {
+        "name": "sugar",
+        "type": "number",
+        "description": "Gula per 100g dalam gram",
+        "options": null
+      },
+      {
+        "name": "vitaminC",
+        "type": "number",
+        "description": "Vitamin C per 100g dalam mg",
+        "options": null
+      },
+      {
+        "name": "vitaminA",
+        "type": "number",
+        "description": "Vitamin A per 100g dalam mcg",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "signature_product",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "description": "Nama produk",
+        "options": null
+      },
+      {
+        "name": "description",
+        "type": "text",
+        "description": "Deskripsi produk",
+        "options": null
+      },
+      {
+        "name": "price",
+        "type": "number",
+        "description": "Harga dalam Rupiah",
+        "options": null
+      },
+      {
+        "name": "nutrients",
+        "type": "text",
+        "description": "Informasi nutrisi produk",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "order",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "description": "Nama pesanan",
+        "options": null
+      },
+      {
+        "name": "type",
+        "type": "text",
+        "description": "Tipe pesanan",
+        "options": [
+          "signature",
+          "custom"
+        ]
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "description": "Status pesanan",
+        "options": [
+          "pending",
+          "processing",
+          "ready",
+          "completed"
+        ]
+      },
+      {
+        "name": "orderDate",
+        "type": "datetime",
+        "description": "Tanggal pemesanan",
+        "options": null
+      },
+      {
+        "name": "price",
+        "type": "number",
+        "description": "Harga pesanan",
+        "options": null
+      },
+      {
+        "name": "size",
+        "type": "text",
+        "description": "Ukuran minuman",
+        "options": null
+      },
+      {
+        "name": "base",
+        "type": "text",
+        "description": "Cairan dasar",
+        "options": null
+      },
+      {
+        "name": "ingredients",
+        "type": "text",
+        "description": "Daftar bahan untuk custom order",
+        "options": null
+      },
+      {
+        "name": "nutrition",
+        "type": "text",
+        "description": "Data nutrisi",
+        "options": null
+      }
+    ]
+  }
+]
