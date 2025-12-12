@@ -8,7 +8,7 @@ function Header({ cartCount, onCartClick }) {
               <div className="w-10 h-10 bg-[var(--primary-color)] rounded-lg flex items-center justify-center">
                 <div className="icon-leaf text-xl text-white"></div>
               </div>
-              <span className="text-2xl font-bold text-[var(--primary-color)]">VitaBlend</span>
+              <span className="text-2xl font-bold text-[var(--primary-color)]">VitaSlice</span>
             </div>
             
             <nav className="hidden md:flex items-center space-x-8">
