@@ -172,8 +172,7 @@ function CustomizerPreview({ onAddToCart }) {
           <div className="mb-6">
             <label className="block font-semibold mb-2">Cairan Dasar</label>
             <select value={base} onChange={(e) => setBase(e.target.value)} className="w-full p-3 border rounded-lg">
-              <option value="green_tea">Teh Hijau</option>
-              <option value="water">Air Mineral</option>
+              <option value="Jasmine_Tea">Teh melati</option>
               <option value="coconut">Air Kelapa</option>
               <option value="none">Original (Tanpa Kuah)</option>
             </select>
