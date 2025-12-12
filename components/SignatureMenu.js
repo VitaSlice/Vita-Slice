@@ -67,9 +67,6 @@ function SignatureMenu({ onAddToCart }) {
       <section id="menu" className="container mx-auto px-4 py-16" data-name="signature-menu" data-file="components/SignatureMenu.js">
         <h2 className="text-4xl font-bold text-center mb-12">Menu Signature</h2>
         
-        {/* Tampilkan Menu Blended */}
-        {renderProducts(blendedProducts, 'Opsi Blended (Jus)', 'glass-water')}
-        
         {/* Tampilkan Menu Sliced */}
         {renderProducts(slicedProducts, 'Opsi Sliced (Potongan Buah)', 'bowl-food')}
 
